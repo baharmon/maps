@@ -7,13 +7,17 @@ crossorigin=""/>
 integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 crossorigin=""></script>
 <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js"></script>
-<style>
-#map { height: 100%; }
+<style type="text/css">
+    .map {
+        width: 600px;
+        height: 320px;
+        margin: 0 0 1em 0;
+    }
 </style>
 </head>
 
 <body>
-<div id="map"></div>
+<div id="toner" class="map"></div>
 
 <script>
 // replace "toner" here with "terrain" or "watercolor"
